@@ -23,7 +23,7 @@ public sealed class HR_Factory
     /// <param name="IPAddress"></param>
     /// <param name="type"></param>
     /// <returns></returns>
-    public HR_Monitor createHR_Monitor(int UDP_PORT, string IPAddress, string type)
+    public HR_Monitor createHR_Monitor(int UDP_PORT, string type)
     {
         HR_Monitor hrm;
 
@@ -41,7 +41,6 @@ public sealed class HR_Factory
         }
 
         hrm.UDP_PORT = UDP_PORT;
-        hrm.IPAddress = IPAddress;
 
         hrm.Initialize();
 

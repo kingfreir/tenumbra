@@ -25,7 +25,7 @@ public class HR_Monitor_Generic : HR_Monitor
     public override void Initialize()
     {
         HR_Lock = new Object();
-        UListener = new UDP_Listener(UDP_PORT, IPAddress);
+        UListener = new UDP_Listener(UDP_PORT);
     }
 
     /// <summary>

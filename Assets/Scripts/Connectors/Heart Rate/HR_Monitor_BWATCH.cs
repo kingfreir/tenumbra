@@ -25,7 +25,7 @@ public sealed class HR_Monitor_BWATCH : HR_Monitor
     public override void Initialize()
     {
         HR_Lock = new Object();
-        UListener = new UDP_Listener(UDP_PORT, IPAddress);
+        UListener = new UDP_Listener(UDP_PORT);
     }
 
     /// <summary>
@@ -34,6 +34,10 @@ public sealed class HR_Monitor_BWATCH : HR_Monitor
     public override void FetchHR()
     {
         int aux = 0;
+
+        string msg = UListener.ReceiveData();
+
+        aux = int.Parse(msg.Split(',')[0]);
 
         //  Lock to avoid concurrency problems while writing the heart rate value.
         lock (HR_Lock)
