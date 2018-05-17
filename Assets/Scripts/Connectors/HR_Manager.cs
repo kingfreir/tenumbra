@@ -17,9 +17,9 @@ public sealed class HR_Manager
     /// <param name="UDP_PORT"></param>
     /// <param name="IPAddress"></param>
     /// <param name="type"></param>
-    public void Initialize(int UDP_PORT, string IPAddress, string type)
+    public void Initialize(int UDP_PORT, string type)
     {
-        hr_monitor = hr_factory.createHR_Monitor(UDP_PORT, IPAddress, type);
+        hr_monitor = hr_factory.createHR_Monitor(UDP_PORT, type);
 
         UD = new Thread(UpdateData);
         UD.Start();

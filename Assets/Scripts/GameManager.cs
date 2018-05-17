@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 
     //  Variables for this class.
     public int UDP_PORT;
-    public string IPAddress;
     public string HR_Monitor_Type;
     private HR_Manager hr_manager;
     public Text HeartRateText;
@@ -23,7 +22,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         hr_manager = new HR_Manager();
-        hr_manager.Initialize(UDP_PORT, IPAddress, HR_Monitor_Type);
+        hr_manager.Initialize(UDP_PORT, HR_Monitor_Type);
 
         stopwatch = new Stopwatch();
         stopwatch.Start();

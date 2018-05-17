@@ -15,11 +15,11 @@ public class UDP_Listener
     /// </summary>
     /// <param name="UDP_PORT">The port to search for UDP datagrams.</param>
     /// <param name="_IPAddress">The IP address to search for UDP datagrams.</param>
-    public UDP_Listener(int UDP_PORT, string _IPAddress)
+    public UDP_Listener(int UDP_PORT)
     {
         //  Save the configuration parameters.
         this.UDP_PORT = UDP_PORT;
-        this._IPAddress = IPAddress.Parse(_IPAddress);
+        this._IPAddress = IPAddress.Parse("127.0.0.1");
 
         //  Create the UDP Client.
         udpClient = UDP_Protocol.CreateUDPClient(UDP_PORT);
