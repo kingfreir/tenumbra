@@ -3,13 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public void GotoGameScene()
+    public void LoadScene(int scene)
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(scene);
     }
 
-    public void GotoTitleScene()
-    {
-        SceneManager.LoadScene("TitleScene");
-    }
 }
