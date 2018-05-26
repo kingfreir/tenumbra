@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 1d6f88624b762944d925997427cca1eb
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: collection
+    100002: description
+    100004: //RootNode
+    100006: FireFly__1_:pPlane1
+    100008: FireFly__1_:pPlane2
+    100010: FireFly__1_:pPlane4
+    100012: FireFly__1_:pPlane5
+    100014: FireFly__1_:pSphere2
+    100016: hairSystem1Follicles
+    100018: left
+    100020: pCylinder1
+    100022: pSphere1
+    100024: pSphere1_description
+    100026: pSphere2
+    100028: pSphere3
+    100030: pTorus1
+    100032: transform1
+    100034: transform2
+    400000: collection
+    400002: description
+    400004: //RootNode
+    400006: FireFly__1_:pPlane1
+    400008: FireFly__1_:pPlane2
+    400010: FireFly__1_:pPlane4
+    400012: FireFly__1_:pPlane5
+    400014: FireFly__1_:pSphere2
+    400016: hairSystem1Follicles
+    400018: left
+    400020: pCylinder1
+    400022: pSphere1
+    400024: pSphere1_description
+    400026: pSphere2
+    400028: pSphere3
+    400030: pTorus1
+    400032: transform1
+    400034: transform2
+    2000000: left
+    2100000: Head
+    2100002: phongE2
+    2100004: lambert3
+    2100006: FireFly__1__blinn2
+    2100008: FireFly__1__lambert3
+    2300000: FireFly__1_:pPlane1
+    2300002: FireFly__1_:pPlane2
+    2300004: FireFly__1_:pPlane4
+    2300006: FireFly__1_:pPlane5
+    2300008: FireFly__1_:pSphere2
+    2300010: pSphere1
+    2300012: pSphere3
+    2300014: pTorus1
+    3300000: FireFly__1_:pPlane1
+    3300002: FireFly__1_:pPlane2
+    3300004: FireFly__1_:pPlane4
+    3300006: FireFly__1_:pPlane5
+    3300008: FireFly__1_:pSphere2
+    3300010: pSphere1
+    3300012: pSphere3
+    3300014: pTorus1
+    4300000: pSphere1
+    4300002: pSphere3
+    4300004: pTorus1
+    4300006: FireFly__1_:pPlane1
+    4300008: FireFly__1_:pPlane2
+    4300010: FireFly__1_:pSphere2
+    4300012: FireFly__1_:pPlane5
+    4300014: FireFly__1_:pPlane4
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
