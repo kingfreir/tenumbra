@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: eabbef7c789856441a2ff63e239306f5
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Cube_MeshPart0
     100002: Cube_MeshPart1
@@ -93,8 +93,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.25
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
